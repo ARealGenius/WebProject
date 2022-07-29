@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+
+    <meta charset="utf-8" />
+    <title>home</title>
+    <script src="Home.js"></script>
+
+    <style>
+        h1 {
+            color: #1db1a3;
+            font: 700 20px arial;
+        }
+    </style>
+</head>
+
+<body onload="myName()">
+    <h1>Hello to</h1>
+    <h1 id="oldName"></h1>
+    <h1>!!!!!🖐</h1>
+
+    <br />
+    <button onclick="updateShow()">update</button>    
+    <button onclick="back()">back</button>
+
+    <div style="display:none" id="uptateDetails">
+        <input type="password" id="Password" placeholder="passward" />
+        <input type="text" id="Name" placeholder="name" />
+        <input type="email" id="Email" placeholder="email" />
+        <button onclick="update()">save</button>
+
+    </div>
+</body>
+
+</html>
